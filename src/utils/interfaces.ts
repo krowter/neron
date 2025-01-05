@@ -139,3 +139,9 @@ export interface ITabsProps {
   tab: ITabProps;
   onClick?: (tab: ITabProps) => void;
 }
+
+export interface IColorTileProps extends HTMLAttributes<HTMLDivElement> {
+  color: string;
+  shade: string;
+}
+``
